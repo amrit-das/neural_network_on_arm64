@@ -11,11 +11,16 @@ To install PyTorch, run -
 cd neural_network_on_arm64
 pip3 install pytorch.whl
 ```
-To install Tensorflow, wun - 
+To install Tensorflow, run - 
 ```
 curl -L https://github.com/lherman-cs/tensorflow-aarch64/releases/download/r1.4/tensorflow-1.4.0rc0-cp35-cp35m-linux_aarch64.whl > /tmp/tensorflow-1.4.0rc0-cp35-cp35m-linux_aarch64.whl
 python3 -m pip install /tmp/tensorflow-1.4.0rc0-cp35-cp35m-linux_aarch64.whl
 ```
+To install Keras, run -
+ ** Install Tensorflow using the above steps and then run the following commands-
+ ```
+ pip install keras
+ ```
 ## References:
 The repository consists of whl files from various opensource projects. I do not own the copyrights of those files. The links from where I have collected the files could be found below. 
 Links
